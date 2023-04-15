@@ -1,8 +1,13 @@
+/*
+Abstract:
+Contains the object recognition view controller for YOLO.
+*/
+
 import UIKit
 import AVFoundation
 import Vision
 
-class VisionObjectRecognitionViewController: YoloViewController {
+class VisionObjectRecognitionViewController: YOLOViewController {
     
     private var detectionOverlay: CALayer! = nil
     
@@ -14,7 +19,7 @@ class VisionObjectRecognitionViewController: YoloViewController {
         // Setup Vision parts
         let error: NSError! = nil
         
-        guard let modelURL = Bundle.main.url(forResource: "YOLOv3", withExtension: "mlmodelc") else {
+        guard let modelURL = Bundle.main.url(forResource: "YOLOv3TinyInt8LUT", withExtension: "mlmodelc") else {
             return NSError(domain: "VisionObjectRecognitionViewController", code: -1, userInfo: [NSLocalizedDescriptionKey: "Model file is missing"])
         }
         do {

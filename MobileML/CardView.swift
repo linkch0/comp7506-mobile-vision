@@ -54,7 +54,7 @@ struct CardView: View {
 //            Text(card.desc)
 //                .padding(.top, 5)
             JustifiedTextView(text: card.desc)
-                .frame(height: 200)
+                .frame(height: 300)
             
             Button(action : {
                 self.isPresented = true

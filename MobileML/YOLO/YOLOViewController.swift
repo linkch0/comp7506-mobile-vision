@@ -1,8 +1,14 @@
+/*
+Abstract:
+Contains the view controller for YOLO.
+*/
+
+
 import UIKit
 import AVFoundation
 import Vision
 
-class YoloViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
+class YOLOViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDelegate {
     
     var bufferSize: CGSize = .zero
     var rootLayer: CALayer! = nil
