@@ -1,0 +1,17 @@
+# Mac
+.DS_Store
+__MACOSX
+
+# VSCode
+__pycache__
+.vscode
+
+# JetBrains
+.idea
+
+# Jupyter
+.ipynb_checkpoints
+
+xcuserdata
+build
+*.mlmodel

@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0B32BD29E95AA1000438DC /* MobileMLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32BC29E95AA1000438DC /* MobileMLApp.swift */; };
+		3B0B32BF29E95AA1000438DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32BE29E95AA1000438DC /* ContentView.swift */; };
+		3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C029E95AA2000438DC /* Assets.xcassets */; };
+		3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */; };
+		3B0B32CE29E95AA3000438DC /* MobileMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32CD29E95AA3000438DC /* MobileMLTests.swift */; };
+		3B0B32D829E95AA3000438DC /* MobileMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32D729E95AA3000438DC /* MobileMLUITests.swift */; };
+		3B0B32DA29E95AA3000438DC /* MobileMLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32D929E95AA3000438DC /* MobileMLUITestsLaunchTests.swift */; };
+		3B41434A29E9840400B39131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B41434929E9840400B39131 /* CardView.swift */; };
+		3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */; };
+		3B8BC95A29E9CC9B0020A77D /* YoloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95929E9CC9B0020A77D /* YoloViewController.swift */; };
+		3B8BC95C29E9CE220020A77D /* Yolo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BC95B29E9CE220020A77D /* Yolo.storyboard */; };
+		3B8BC96029E9D3540020A77D /* StoryboardWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */; };
+		3B8BC96529E9DAA80020A77D /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC96429E9DAA80020A77D /* YOLOv3.mlmodel */; };
+		3B8C4D7D29E999CE002C4F56 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C4D7C29E999CD002C4F56 /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B0B32CA29E95AA3000438DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0B32B129E95AA1000438DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0B32B829E95AA1000438DC;
+			remoteInfo = MobileML;
+		};
+		3B0B32D429E95AA3000438DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B0B32B129E95AA1000438DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B0B32B829E95AA1000438DC;
+			remoteInfo = MobileML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0B32B929E95AA1000438DC /* MobileML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0B32BC29E95AA1000438DC /* MobileMLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMLApp.swift; sourceTree = "<group>"; };
+		3B0B32BE29E95AA1000438DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B0B32C029E95AA2000438DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B0B32C929E95AA3000438DC /* MobileMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0B32CD29E95AA3000438DC /* MobileMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMLTests.swift; sourceTree = "<group>"; };
+		3B0B32D329E95AA3000438DC /* MobileMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B0B32D729E95AA3000438DC /* MobileMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMLUITests.swift; sourceTree = "<group>"; };
+		3B0B32D929E95AA3000438DC /* MobileMLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B41434929E9840400B39131 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
+		3B8BC95929E9CC9B0020A77D /* YoloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoloViewController.swift; sourceTree = "<group>"; };
+		3B8BC95B29E9CE220020A77D /* Yolo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Yolo.storyboard; sourceTree = "<group>"; };
+		3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardWrapper.swift; sourceTree = "<group>"; };
+		3B8BC96329E9D86E0020A77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3B8BC96429E9DAA80020A77D /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		3B8C4D7C29E999CD002C4F56 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B0B32B629E95AA1000438DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0B32C629E95AA3000438DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0B32D029E95AA3000438DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B0B32B029E95AA1000438DC = {
+			isa = PBXGroup;
+			children = (
+				3B0B32BB29E95AA1000438DC /* MobileML */,
+				3B0B32CC29E95AA3000438DC /* MobileMLTests */,
+				3B0B32D629E95AA3000438DC /* MobileMLUITests */,
+				3B0B32BA29E95AA1000438DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B0B32BA29E95AA1000438DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B32B929E95AA1000438DC /* MobileML.app */,
+				3B0B32C929E95AA3000438DC /* MobileMLTests.xctest */,
+				3B0B32D329E95AA3000438DC /* MobileMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B0B32BB29E95AA1000438DC /* MobileML */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BC96329E9D86E0020A77D /* Info.plist */,
+				3B0B32C029E95AA2000438DC /* Assets.xcassets */,
+				3B0B32C229E95AA2000438DC /* Preview Content */,
+				3B8BC95629E9A5160020A77D /* yolo */,
+				3B0B32BC29E95AA1000438DC /* MobileMLApp.swift */,
+				3B0B32BE29E95AA1000438DC /* ContentView.swift */,
+				3B41434929E9840400B39131 /* CardView.swift */,
+				3B8C4D7C29E999CD002C4F56 /* Card.swift */,
+				3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */,
+			);
+			path = MobileML;
+			sourceTree = "<group>";
+		};
+		3B0B32C229E95AA2000438DC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B0B32CC29E95AA3000438DC /* MobileMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B32CD29E95AA3000438DC /* MobileMLTests.swift */,
+			);
+			path = MobileMLTests;
+			sourceTree = "<group>";
+		};
+		3B0B32D629E95AA3000438DC /* MobileMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B0B32D729E95AA3000438DC /* MobileMLUITests.swift */,
+				3B0B32D929E95AA3000438DC /* MobileMLUITestsLaunchTests.swift */,
+			);
+			path = MobileMLUITests;
+			sourceTree = "<group>";
+		};
+		3B8BC95629E9A5160020A77D /* yolo */ = {
+			isa = PBXGroup;
+			children = (
+				3B8BC96429E9DAA80020A77D /* YOLOv3.mlmodel */,
+				3B8BC95B29E9CE220020A77D /* Yolo.storyboard */,
+				3B8BC95929E9CC9B0020A77D /* YoloViewController.swift */,
+				3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */,
+			);
+			path = yolo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B0B32B829E95AA1000438DC /* MobileML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0B32DD29E95AA3000438DC /* Build configuration list for PBXNativeTarget "MobileML" */;
+			buildPhases = (
+				3B0B32B529E95AA1000438DC /* Sources */,
+				3B0B32B629E95AA1000438DC /* Frameworks */,
+				3B0B32B729E95AA1000438DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileML;
+			productName = MobileML;
+			productReference = 3B0B32B929E95AA1000438DC /* MobileML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B0B32C829E95AA3000438DC /* MobileMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0B32E029E95AA3000438DC /* Build configuration list for PBXNativeTarget "MobileMLTests" */;
+			buildPhases = (
+				3B0B32C529E95AA3000438DC /* Sources */,
+				3B0B32C629E95AA3000438DC /* Frameworks */,
+				3B0B32C729E95AA3000438DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0B32CB29E95AA3000438DC /* PBXTargetDependency */,
+			);
+			name = MobileMLTests;
+			productName = MobileMLTests;
+			productReference = 3B0B32C929E95AA3000438DC /* MobileMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B0B32D229E95AA3000438DC /* MobileMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B0B32E329E95AA3000438DC /* Build configuration list for PBXNativeTarget "MobileMLUITests" */;
+			buildPhases = (
+				3B0B32CF29E95AA3000438DC /* Sources */,
+				3B0B32D029E95AA3000438DC /* Frameworks */,
+				3B0B32D129E95AA3000438DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B0B32D529E95AA3000438DC /* PBXTargetDependency */,
+			);
+			name = MobileMLUITests;
+			productName = MobileMLUITests;
+			productReference = 3B0B32D329E95AA3000438DC /* MobileMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B0B32B129E95AA1000438DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3B0B32B829E95AA1000438DC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					3B0B32C829E95AA3000438DC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3B0B32B829E95AA1000438DC;
+					};
+					3B0B32D229E95AA3000438DC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 3B0B32B829E95AA1000438DC;
+					};
+				};
+			};
+			buildConfigurationList = 3B0B32B429E95AA1000438DC /* Build configuration list for PBXProject "MobileML" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B0B32B029E95AA1000438DC;
+			productRefGroup = 3B0B32BA29E95AA1000438DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B0B32B829E95AA1000438DC /* MobileML */,
+				3B0B32C829E95AA3000438DC /* MobileMLTests */,
+				3B0B32D229E95AA3000438DC /* MobileMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B0B32B729E95AA1000438DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8BC95C29E9CE220020A77D /* Yolo.storyboard in Resources */,
+				3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */,
+				3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0B32C729E95AA3000438DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0B32D129E95AA3000438DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B0B32B529E95AA1000438DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B8BC95A29E9CC9B0020A77D /* YoloViewController.swift in Sources */,
+				3B8BC96029E9D3540020A77D /* StoryboardWrapper.swift in Sources */,
+				3B8BC96529E9DAA80020A77D /* YOLOv3.mlmodel in Sources */,
+				3B0B32BF29E95AA1000438DC /* ContentView.swift in Sources */,
+				3B41434A29E9840400B39131 /* CardView.swift in Sources */,
+				3B0B32BD29E95AA1000438DC /* MobileMLApp.swift in Sources */,
+				3B8C4D7D29E999CE002C4F56 /* Card.swift in Sources */,
+				3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0B32C529E95AA3000438DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0B32CE29E95AA3000438DC /* MobileMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B0B32CF29E95AA3000438DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0B32DA29E95AA3000438DC /* MobileMLUITestsLaunchTests.swift in Sources */,
+				3B0B32D829E95AA3000438DC /* MobileMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B0B32CB29E95AA3000438DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0B32B829E95AA1000438DC /* MobileML */;
+			targetProxy = 3B0B32CA29E95AA3000438DC /* PBXContainerItemProxy */;
+		};
+		3B0B32D529E95AA3000438DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B0B32B829E95AA1000438DC /* MobileML */;
+			targetProxy = 3B0B32D429E95AA3000438DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B0B32DB29E95AA3000438DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B0B32DC29E95AA3000438DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B0B32DE29E95AA3000438DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileML/Preview Content\"";
+				DEVELOPMENT_TEAM = UVU5GGS227;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileML/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for real-time object detection.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B0B32DF29E95AA3000438DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileML/Preview Content\"";
+				DEVELOPMENT_TEAM = UVU5GGS227;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MobileML/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for real-time object detection.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B0B32E129E95AA3000438DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVU5GGS227;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileML";
+			};
+			name = Debug;
+		};
+		3B0B32E229E95AA3000438DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVU5GGS227;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileML.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileML";
+			};
+			name = Release;
+		};
+		3B0B32E429E95AA3000438DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVU5GGS227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileML;
+			};
+			name = Debug;
+		};
+		3B0B32E529E95AA3000438DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UVU5GGS227;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B0B32B429E95AA1000438DC /* Build configuration list for PBXProject "MobileML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0B32DB29E95AA3000438DC /* Debug */,
+				3B0B32DC29E95AA3000438DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0B32DD29E95AA3000438DC /* Build configuration list for PBXNativeTarget "MobileML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0B32DE29E95AA3000438DC /* Debug */,
+				3B0B32DF29E95AA3000438DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0B32E029E95AA3000438DC /* Build configuration list for PBXNativeTarget "MobileMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0B32E129E95AA3000438DC /* Debug */,
+				3B0B32E229E95AA3000438DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B0B32E329E95AA3000438DC /* Build configuration list for PBXNativeTarget "MobileMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B0B32E429E95AA3000438DC /* Debug */,
+				3B0B32E529E95AA3000438DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B0B32B129E95AA1000438DC /* Project object */;
+}
