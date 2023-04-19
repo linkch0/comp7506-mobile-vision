@@ -7,27 +7,19 @@
 
 import SwiftUI
 
-let model_name = "yolo"
-
-
-
 struct ContentView: View {
-    let cards = init_cards()
+//    let cards = init_cards()
+    var cards_init = [init_clf_cards, init_det_cards, init_est_cards]
+    @Binding var init_type: Int
+    @Environment(\.presentationMode) var presentationMode
     var body: some View {
+        Button("Homepage") {
+            presentationMode.wrappedValue.dismiss()
+        }
         // Swiper for cards
         TabView {
+            var cards = cards_init[init_type]()
             ForEach(cards) { card in
-//                GeometryReader { proxy in
-//                    ZStack{
-//                        let width = proxy.size.width
-//                        let height = proxy.size.height
-//                        RoundedRectangle(cornerRadius: 16)
-//                            .fill(Color.white)
-//                            .frame(width: width, height: height)
-//                            .shadow(color: Color.gray.opacity(0.5), radius: 10, x: 0, y: 10)
-//                        CardView(card: card)
-//                    }
-//                }
                 CardView(card: card)
             }
         }
@@ -36,8 +28,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView(cards: init_cards())
+//    }
+//}

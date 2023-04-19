@@ -18,8 +18,8 @@ class VisionObjectRecognitionViewController: YOLOViewController {
     func setupVision() -> NSError? {
         // Setup Vision parts
         let error: NSError! = nil
-        
-        guard let modelURL = Bundle.main.url(forResource: "YOLOv3TinyInt8LUT", withExtension: "mlmodelc") else {
+        // Modify the 'forResource' below to match the name of your model
+        guard let modelURL = Bundle.main.url(forResource: "YOLOv3", withExtension: "mlmodelc") else {
             return NSError(domain: "VisionObjectRecognitionViewController", code: -1, userInfo: [NSLocalizedDescriptionKey: "Model file is missing"])
         }
         do {

@@ -37,8 +37,9 @@ class PoseNet {
     /// - Note: Other variants of the PoseNet model are available from the Model Gallery.
     private let poseNetMLModel: MLModel
 
+    // modify the model name below to match your model's m
     init() throws {
-        poseNetMLModel = try PoseNetMobileNet075S16FP16(configuration: .init()).model
+        poseNetMLModel = try PoseNetMobileNet100S16FP16(configuration: .init()).model
     }
 
     /// Calls the `prediction` method of the PoseNet model and returns the outputs to the assigned

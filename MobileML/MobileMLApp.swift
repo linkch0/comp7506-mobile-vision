@@ -11,7 +11,8 @@ import SwiftUI
 struct MobileMLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            HomeContentView()
         }
     }
 }

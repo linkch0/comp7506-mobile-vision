@@ -29,6 +29,26 @@ public func init_cards() -> [Card] {
     return cards
 }
 
+public func init_clf_cards() -> [Card] {
+    // Initialize the data of model cards
+    var cards: [Card] = []
+    cards.append(yolo_card()) // TODO: implement more models and change name
+    return cards
+}
+
+public func init_det_cards() -> [Card] {
+    // Initialize the data of model cards
+    var cards: [Card] = []
+    cards.append(yolo_card())
+    return cards
+}
+
+public func init_est_cards() -> [Card] {
+    // Initialize the data of model cards
+    var cards: [Card] = []
+    cards.append(posenet_card())
+    return cards
+}
 
 func yolo_card() -> Card {
     let image = Image("yolo")

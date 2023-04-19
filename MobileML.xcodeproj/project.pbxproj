@@ -12,12 +12,10 @@
 		3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C029E95AA2000438DC /* Assets.xcassets */; };
 		3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */; };
 		3B41434A29E9840400B39131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B41434929E9840400B39131 /* CardView.swift */; };
-		3B53195A29EB1759009899CB /* PoseNetMobileNet075S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B53195929EB1758009899CB /* PoseNetMobileNet075S16FP16.mlmodel */; };
 		3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */; };
 		3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */; };
 		3B8BC95C29E9CE220020A77D /* YOLO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BC95B29E9CE220020A77D /* YOLO.storyboard */; };
 		3B8BC96029E9D3540020A77D /* StoryboardWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */; };
-		3B8BC96929EA6AD70020A77D /* YOLOv3TinyInt8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC96829EA6AD70020A77D /* YOLOv3TinyInt8LUT.mlmodel */; };
 		3B8BC9A129EB072F0020A77D /* Joint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC99B29EB072F0020A77D /* Joint.swift */; };
 		3B8BC9A229EB072F0020A77D /* PoseBuilder+Multiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC99C29EB072F0020A77D /* PoseBuilder+Multiple.swift */; };
 		3B8BC9A329EB072F0020A77D /* PoseBuilder+Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC99D29EB072F0020A77D /* PoseBuilder+Single.swift */; };
@@ -38,6 +36,9 @@
 		3B8BC9C629EB076D0020A77D /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC9BD29EB076D0020A77D /* VideoCapture.swift */; };
 		3B8C4D7D29E999CE002C4F56 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8C4D7C29E999CD002C4F56 /* Card.swift */; };
 		3BB64ECB29EB0FF7008545B5 /* Pose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BC9CB29EB09160020A77D /* Pose.storyboard */; };
+		CF483BEF29ED670C0063BBDE /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CF483BEE29ED670C0063BBDE /* YOLOv3.mlmodel */; };
+		CF483BF129ED671E0063BBDE /* PoseNetMobileNet100S16FP16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CF483BF029ED671E0063BBDE /* PoseNetMobileNet100S16FP16.mlmodel */; };
+		CFCB152A29EFCB52009583C9 /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCB152929EFCB52009583C9 /* HomeContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,14 +48,12 @@
 		3B0B32C029E95AA2000438DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B41434929E9840400B39131 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		3B53195929EB1758009899CB /* PoseNetMobileNet075S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet075S16FP16.mlmodel; sourceTree = "<group>"; };
 		3B53195B29EB18A1009899CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOViewController.swift; sourceTree = "<group>"; };
 		3B8BC95B29E9CE220020A77D /* YOLO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YOLO.storyboard; sourceTree = "<group>"; };
 		3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardWrapper.swift; sourceTree = "<group>"; };
 		3B8BC96329E9D86E0020A77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		3B8BC96829EA6AD70020A77D /* YOLOv3TinyInt8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3TinyInt8LUT.mlmodel; sourceTree = "<group>"; };
 		3B8BC99B29EB072F0020A77D /* Joint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
 		3B8BC99C29EB072F0020A77D /* PoseBuilder+Multiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Multiple.swift"; sourceTree = "<group>"; };
 		3B8BC99D29EB072F0020A77D /* PoseBuilder+Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Single.swift"; sourceTree = "<group>"; };
@@ -75,6 +74,9 @@
 		3B8BC9BD29EB076D0020A77D /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
 		3B8BC9CB29EB09160020A77D /* Pose.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Pose.storyboard; sourceTree = "<group>"; };
 		3B8C4D7C29E999CD002C4F56 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CF483BEE29ED670C0063BBDE /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
+		CF483BF029ED671E0063BBDE /* PoseNetMobileNet100S16FP16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PoseNetMobileNet100S16FP16.mlmodel; sourceTree = "<group>"; };
+		CFCB152929EFCB52009583C9 /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				3B41434929E9840400B39131 /* CardView.swift */,
 				3B8C4D7C29E999CD002C4F56 /* Card.swift */,
 				3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */,
+				CFCB152929EFCB52009583C9 /* HomeContentView.swift */,
 			);
 			path = MobileML;
 			sourceTree = "<group>";
@@ -133,7 +136,7 @@
 		3B8BC95629E9A5160020A77D /* YOLO */ = {
 			isa = PBXGroup;
 			children = (
-				3B8BC96829EA6AD70020A77D /* YOLOv3TinyInt8LUT.mlmodel */,
+				CF483BEE29ED670C0063BBDE /* YOLOv3.mlmodel */,
 				3B8BC95B29E9CE220020A77D /* YOLO.storyboard */,
 				3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */,
 				3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */,
@@ -170,7 +173,7 @@
 		3B8BC9A729EB075D0020A77D /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				3B53195929EB1758009899CB /* PoseNetMobileNet075S16FP16.mlmodel */,
+				CF483BF029ED671E0063BBDE /* PoseNetMobileNet100S16FP16.mlmodel */,
 				3B8BC9A829EB075D0020A77D /* PoseNetOutput.swift */,
 				3B8BC9A929EB075D0020A77D /* PoseNet.swift */,
 				3B8BC9AA29EB075D0020A77D /* PoseNetInput.swift */,
@@ -281,8 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8BC9AF29EB075D0020A77D /* PoseNetInput.swift in Sources */,
+				CF483BF129ED671E0063BBDE /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
 				3B8BC9A529EB072F0020A77D /* PoseBuilder.swift in Sources */,
 				3B8BC9A429EB072F0020A77D /* Pose.swift in Sources */,
+				CF483BEF29ED670C0063BBDE /* YOLOv3.mlmodel in Sources */,
 				3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */,
 				3B8BC96029E9D3540020A77D /* StoryboardWrapper.swift in Sources */,
 				3B8BC9A229EB072F0020A77D /* PoseBuilder+Multiple.swift in Sources */,
@@ -291,7 +296,6 @@
 				3B8BC9A129EB072F0020A77D /* Joint.swift in Sources */,
 				3B8BC9AE29EB075D0020A77D /* PoseNet.swift in Sources */,
 				3B8BC9BE29EB076D0020A77D /* PoseViewController.swift in Sources */,
-				3B8BC96929EA6AD70020A77D /* YOLOv3TinyInt8LUT.mlmodel in Sources */,
 				3B8BC9C129EB076D0020A77D /* PopOverModalViewController.swift in Sources */,
 				3B8BC9C529EB076D0020A77D /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				3B8BC9C029EB076D0020A77D /* ConfigurationViewController.swift in Sources */,
@@ -301,9 +305,9 @@
 				3B8BC9C329EB076D0020A77D /* CGPoint+Extension.swift in Sources */,
 				3B0B32BD29E95AA1000438DC /* MobileMLApp.swift in Sources */,
 				3B8C4D7D29E999CE002C4F56 /* Card.swift in Sources */,
+				CFCB152A29EFCB52009583C9 /* HomeContentView.swift in Sources */,
 				3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */,
 				3B8BC9A329EB072F0020A77D /* PoseBuilder+Single.swift in Sources */,
-				3B53195A29EB1759009899CB /* PoseNetMobileNet075S16FP16.mlmodel in Sources */,
 				3B8BC9C429EB076D0020A77D /* CGImage+Extension.swift in Sources */,
 				3B8BC9A629EB072F0020A77D /* PoseBuilderConfiguration.swift in Sources */,
 				3B8BC9C229EB076D0020A77D /* GradientOverlayView.swift in Sources */,
@@ -432,10 +436,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MobileML/Preview Content\"";
-				DEVELOPMENT_TEAM = UVU5GGS227;
+				DEVELOPMENT_TEAM = 832F6S325C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MobileML/Info.plist;
@@ -451,8 +456,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileML;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLShowcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,10 +470,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MobileML/Preview Content\"";
-				DEVELOPMENT_TEAM = UVU5GGS227;
+				DEVELOPMENT_TEAM = 832F6S325C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MobileML/Info.plist;
@@ -483,8 +490,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileML;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLShowcase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
