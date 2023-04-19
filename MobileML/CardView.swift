@@ -18,8 +18,8 @@ struct JustifiedTextView: UIViewRepresentable {
         textView.isEditable = false
         // Set alignment to justified
         textView.textAlignment = .justified
-//        textView.layer.borderWidth = 2
-//        textView.layer.cornerRadius = 8
+        // textView.layer.borderWidth = 2
+        // textView.layer.cornerRadius = 8
         return textView
     }
     
@@ -32,49 +32,64 @@ struct JustifiedTextView: UIViewRepresentable {
 struct CardView: View {
     let card: Card
     @State private var isPresented = false
+    @State private var imgSize: CGSize = .zero
+    
     
     var body: some View {
-        
-        VStack(alignment: .leading) {
-            Text(card.title)
-                .font(.title)
-                .fontWeight(.bold)
-                .padding(.top, 10)
+        GeometryReader { reader in
+            // Get full screen size
+            let w = reader.size.width
+            let h = reader.size.height
             
-            card.image
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height: 200)
-            
-            Text(card.subtitle)
-                .font(.title2)
-                .fontWeight(.bold)
-                .padding(.top, 10)
-            
-//            Text(card.desc)
-//                .padding(.top, 5)
-            JustifiedTextView(text: card.desc)
-                .frame(height: 250)
-            
-            Button(action : {
-                self.isPresented = true
-            }) {
-                Text(card.btnTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(.white)
+            VStack {
+                card.image
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: w/2, height: h/2)
+                    .ignoresSafeArea()
+                    .padding(.bottom, -60)
+                
+                VStack(alignment: .leading, spacing: 5) {
+                    Text(card.title)
+                        .font(.title)
+                        .fontWeight(.bold)
+                    
+                    Text(card.subtitle)
+                        .font(.title2)
+                        .fontWeight(.bold)
+                    
+                    JustifiedTextView(text: card.desc)
+                        .frame(height: 250)
+                    
+                    Button(action : {
+                        self.isPresented = true
+                    }) {
+                        Text(card.btnTitle)
+                            .fontWeight(.bold)
+                            .foregroundColor(.white)
+                    }
+                    .sheet(isPresented: $isPresented){
+                        StoryboardWrapper(storyboardName: card.board)
+                    }
+                    .padding(.top, 10)
+                    .padding(.bottom, 10)
+                    .frame(maxWidth: .infinity)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+                    
+                    // This should be the last, put everything to the top
+                    Spacer()
+                }
+                .padding()
+                
             }
-            .sheet(isPresented: $isPresented){
-                StoryboardWrapper(storyboardName: card.board)
-            }
-            .padding(.top, 10)
-            .padding(.bottom, 10)
-            .frame(maxWidth: .infinity)
-            .background(Color.blue)
-            .cornerRadius(10)
-            
-            // This should be the last, put everything to the top
-            Spacer()
         }
-        .padding()
+    }
+}
+
+
+struct CardView_Previews: PreviewProvider {
+    static var previews: some View {
+        CardView(card: yolo_card())
     }
 }

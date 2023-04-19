@@ -34,6 +34,7 @@ public func init_clf_cards() -> [Card] {
     var cards: [Card] = []
     cards.append(image_clf_card())
     // TODO: implement more models
+    cards.append(image_clf_card())
     return cards
 }
 

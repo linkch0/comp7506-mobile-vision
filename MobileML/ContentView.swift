@@ -15,31 +15,37 @@ struct ContentView: View {
     @Environment(\.presentationMode) var presentationMode
     
     var body: some View {
-        HStack {
-            Spacer()
-            Button(action: {presentationMode.wrappedValue.dismiss()}, label: {
-                    Circle()
-                        .fill(Color(.secondarySystemBackground))
-                        .frame(width: 30, height: 30) // You can make this whatever size, but keep UX in mind.
-                        .overlay(
-                            Image(systemName: "xmark")
-                                .font(.system(size: 15, weight: .bold, design: .rounded)) // This should be less than the frame of the circle
-                                .foregroundColor(.secondary)
-                        )
-                })
-                .buttonStyle(PlainButtonStyle()) // This gives it no designs on idle, but can change on input
-                .accessibilityLabel(Text("Close")) // Keep it accessible
-                .padding(.horizontal, 25)
-                .padding(.top, 20)
-        }
-        // Swiper for cards
-        TabView {
-            let cards = init_cards[init_type]()
-            ForEach(cards) { card in
-                CardView(card: card)
+        ZStack {
+            // Swiper for cards
+            TabView {
+                let cards = init_cards[init_type]()
+                ForEach(cards) { card in
+                    CardView(card: card)
+                }
             }
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
+            .ignoresSafeArea()
+            
+            // Back button
+            Button(action: {
+                presentationMode.wrappedValue.dismiss()
+            }) {
+                Image(systemName: "xmark.circle.fill")
+                    .font(.system(size: 36))
+                    .foregroundColor(.white)
+                    .background(.black)
+                    .clipShape(Circle())
+            }
+            // Keep it accessible
+            .accessibilityLabel(Text("Back"))
+            .position(x: UIScreen.main.bounds.maxX - 40, y: 15)
         }
-        .tabViewStyle(.page(indexDisplayMode: .always))
-        .indexViewStyle(.page(backgroundDisplayMode: .always))
+    }
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView(init_type: .constant(0))
     }
 }
