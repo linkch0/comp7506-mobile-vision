@@ -6,7 +6,6 @@ struct HomeCard: Identifiable {
     var imageName: String
     var title: String
     var description: String
-    // var destinationView: AnyView?
     var init_type: Int
 }
 
@@ -17,7 +16,7 @@ struct HomeCardView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(homecard.title)
-                .font(.title)
+                .font(.title2)
                 .padding(.top)
                 .padding(.leading)
                 .fontWeight(.bold)
@@ -28,7 +27,7 @@ struct HomeCardView: View {
             Image(homecard.imageName)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
-                .frame(width: 400, height: 250)
+                .frame(width: 350, height: 250)
                 .clipped()
         }
         .background(Color.white)
@@ -49,9 +48,9 @@ struct HomeCardView: View {
 
 struct HomeContentView: View {
     let cards: [HomeCard] = [
-        HomeCard(imageName: "yolo", title: "Image Classification", description: "Card 1 description", init_type: 0),
-        HomeCard(imageName: "pose", title: "Object Detection", description: "Card 2 description", init_type: 1),
-        HomeCard(imageName: "yolo", title: "Pose Estimation", description: "Card 3 description", init_type: 2)
+        HomeCard(imageName: "mobilenet", title: "Image Classification", description: "Card 1 description", init_type: 0),
+        HomeCard(imageName: "yolo", title: "Object Detection", description: "Card 2 description", init_type: 1),
+        HomeCard(imageName: "posenet", title: "Pose Estimation", description: "Card 3 description", init_type: 2)
     ]
     
     var body: some View {
@@ -60,12 +59,11 @@ struct HomeContentView: View {
                 VStack(spacing: 30) {
                     ForEach(cards) { card in
                         HomeCardView(homecard: card)
-                        
                     }
                 }
                 .padding()
             }
-            .navigationBarTitle("Popolar Realms in CV")
+            .navigationBarTitle("CV in Mobile", displayMode: .automatic)
         }
     }
 }

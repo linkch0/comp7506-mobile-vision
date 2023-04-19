@@ -8,17 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
-//    let cards = init_cards()
-    var cards_init = [init_clf_cards, init_det_cards, init_est_cards]
+    let init_cards = [init_clf_cards, init_det_cards, init_est_cards]
+    
+    // Parameter for init cards
     @Binding var init_type: Int
     @Environment(\.presentationMode) var presentationMode
+    
     var body: some View {
         Button("Homepage") {
             presentationMode.wrappedValue.dismiss()
         }
         // Swiper for cards
         TabView {
-            var cards = cards_init[init_type]()
+            let cards = init_cards[init_type]()
             ForEach(cards) { card in
                 CardView(card: card)
             }
@@ -27,9 +29,3 @@ struct ContentView: View {
         .indexViewStyle(.page(backgroundDisplayMode: .always))
     }
 }
-
-//struct ContentView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ContentView(cards: init_cards())
-//    }
-//}

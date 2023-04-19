@@ -11,6 +11,14 @@
 		3B0B32BF29E95AA1000438DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32BE29E95AA1000438DC /* ContentView.swift */; };
 		3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C029E95AA2000438DC /* Assets.xcassets */; };
 		3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */; };
+		3B26AA4B29EFFFD2008C73C6 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA3C29EFFFD2008C73C6 /* MobileNet.mlmodel */; };
+		3B26AA4D29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA3F29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift */; };
+		3B26AA4E29EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4029EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
+		3B26AA5029EFFFD2008C73C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4329EFFFD2008C73C6 /* MainViewController.swift */; };
+		3B26AA5129EFFFD2008C73C6 /* MobileNet.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA4429EFFFD2008C73C6 /* MobileNet.storyboard */; };
+		3B26AA5229EFFFD2008C73C6 /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4629EFFFD2008C73C6 /* MainViewController+CameraPicker.swift */; };
+		3B26AA5329EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */; };
+		3B26AA5529EFFFD2008C73C6 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */; };
 		3B41434A29E9840400B39131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B41434929E9840400B39131 /* CardView.swift */; };
 		3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */; };
 		3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */; };
@@ -47,6 +55,14 @@
 		3B0B32BE29E95AA1000438DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B0B32C029E95AA2000438DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B26AA3C29EFFFD2008C73C6 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
+		3B26AA3F29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
+		3B26AA4029EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
+		3B26AA4329EFFFD2008C73C6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3B26AA4529EFFFD2008C73C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MobileNet.storyboard; sourceTree = "<group>"; };
+		3B26AA4629EFFFD2008C73C6 /* MainViewController+CameraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+CameraPicker.swift"; sourceTree = "<group>"; };
+		3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+PhotoPicker.swift"; sourceTree = "<group>"; };
+		3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
 		3B41434929E9840400B39131 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3B53195B29EB18A1009899CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +131,7 @@
 				3B0B32C229E95AA2000438DC /* Preview Content */,
 				3B8BC95629E9A5160020A77D /* YOLO */,
 				3B8BC98829EB068E0020A77D /* PoseNet */,
+				3B26AA3A29EFFFD2008C73C6 /* MobileNet */,
 				3B0B32BC29E95AA1000438DC /* MobileMLApp.swift */,
 				3B0B32BE29E95AA1000438DC /* ContentView.swift */,
 				3B41434929E9840400B39131 /* CardView.swift */,
@@ -131,6 +148,45 @@
 				3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B26AA3A29EFFFD2008C73C6 /* MobileNet */ = {
+			isa = PBXGroup;
+			children = (
+				3B26AA3E29EFFFD2008C73C6 /* Extensions */,
+				3B26AA4229EFFFD2008C73C6 /* Main View */,
+				3B26AA4929EFFFD2008C73C6 /* Image Predictor */,
+			);
+			path = MobileNet;
+			sourceTree = "<group>";
+		};
+		3B26AA3E29EFFFD2008C73C6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3B26AA3F29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift */,
+				3B26AA4029EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3B26AA4229EFFFD2008C73C6 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				3B26AA4329EFFFD2008C73C6 /* MainViewController.swift */,
+				3B26AA4429EFFFD2008C73C6 /* MobileNet.storyboard */,
+				3B26AA4629EFFFD2008C73C6 /* MainViewController+CameraPicker.swift */,
+				3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		3B26AA4929EFFFD2008C73C6 /* Image Predictor */ = {
+			isa = PBXGroup;
+			children = (
+				3B26AA3C29EFFFD2008C73C6 /* MobileNet.mlmodel */,
+				3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */,
+			);
+			path = "Image Predictor";
 			sourceTree = "<group>";
 		};
 		3B8BC95629E9A5160020A77D /* YOLO */ = {
@@ -270,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B8BC95C29E9CE220020A77D /* YOLO.storyboard in Resources */,
+				3B26AA5129EFFFD2008C73C6 /* MobileNet.storyboard in Resources */,
 				3BB64ECB29EB0FF7008545B5 /* Pose.storyboard in Resources */,
 				3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */,
 				3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */,
@@ -286,6 +343,8 @@
 				3B8BC9AF29EB075D0020A77D /* PoseNetInput.swift in Sources */,
 				CF483BF129ED671E0063BBDE /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
 				3B8BC9A529EB072F0020A77D /* PoseBuilder.swift in Sources */,
+				3B26AA5229EFFFD2008C73C6 /* MainViewController+CameraPicker.swift in Sources */,
+				3B26AA5529EFFFD2008C73C6 /* ImagePredictor.swift in Sources */,
 				3B8BC9A429EB072F0020A77D /* Pose.swift in Sources */,
 				CF483BEF29ED670C0063BBDE /* YOLOv3.mlmodel in Sources */,
 				3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */,
@@ -299,15 +358,20 @@
 				3B8BC9C129EB076D0020A77D /* PopOverModalViewController.swift in Sources */,
 				3B8BC9C529EB076D0020A77D /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				3B8BC9C029EB076D0020A77D /* ConfigurationViewController.swift in Sources */,
+				3B26AA4E29EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				3B0B32BF29E95AA1000438DC /* ContentView.swift in Sources */,
+				3B26AA4B29EFFFD2008C73C6 /* MobileNet.mlmodel in Sources */,
 				3B8BC9AD29EB075D0020A77D /* PoseNetOutput.swift in Sources */,
 				3B41434A29E9840400B39131 /* CardView.swift in Sources */,
 				3B8BC9C329EB076D0020A77D /* CGPoint+Extension.swift in Sources */,
 				3B0B32BD29E95AA1000438DC /* MobileMLApp.swift in Sources */,
+				3B26AA5029EFFFD2008C73C6 /* MainViewController.swift in Sources */,
 				3B8C4D7D29E999CE002C4F56 /* Card.swift in Sources */,
+				3B26AA4D29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift in Sources */,
 				CFCB152A29EFCB52009583C9 /* HomeContentView.swift in Sources */,
 				3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */,
 				3B8BC9A329EB072F0020A77D /* PoseBuilder+Single.swift in Sources */,
+				3B26AA5329EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift in Sources */,
 				3B8BC9C429EB076D0020A77D /* CGImage+Extension.swift in Sources */,
 				3B8BC9A629EB072F0020A77D /* PoseBuilderConfiguration.swift in Sources */,
 				3B8BC9C229EB076D0020A77D /* GradientOverlayView.swift in Sources */,
@@ -315,6 +379,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B26AA4429EFFFD2008C73C6 /* MobileNet.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B26AA4529EFFFD2008C73C6 /* Base */,
+			);
+			name = MobileNet.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3B0B32DB29E95AA3000438DC /* Debug */ = {
@@ -440,7 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MobileML/Preview Content\"";
-				DEVELOPMENT_TEAM = 832F6S325C;
+				DEVELOPMENT_TEAM = UVU5GGS227;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MobileML/Info.plist;
@@ -456,7 +531,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLShowcase;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -474,7 +549,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MobileML/Preview Content\"";
-				DEVELOPMENT_TEAM = 832F6S325C;
+				DEVELOPMENT_TEAM = UVU5GGS227;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MobileML/Info.plist;
@@ -490,7 +565,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileMLShowcase;
+				PRODUCT_BUNDLE_IDENTIFIER = hk.hku.cs.MobileML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
