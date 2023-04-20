@@ -1,5 +1,5 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+See LICENSE.txt for this sample’s licensing information.
 
 Abstract:
 Makes predictions from images using the MobileNet model.

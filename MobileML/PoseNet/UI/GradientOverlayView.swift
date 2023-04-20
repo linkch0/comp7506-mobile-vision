@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 Implementation details of a view that renders a gradient between two assigned colors.
 */

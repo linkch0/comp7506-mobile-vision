@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 The implementation details of some mathematical operations that extend the CGPoint
  structure.

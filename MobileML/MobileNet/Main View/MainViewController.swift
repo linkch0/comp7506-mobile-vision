@@ -1,5 +1,5 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+See LICENSE.txt for this sample’s licensing information.
 
 Abstract:
 The view controller that selects an image and makes a prediction using Vision and Core ML.

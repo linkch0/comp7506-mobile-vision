@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 The implementation of the application's view controller, responsible for coordinating
  the user interface, video feed, and PoseNet model.

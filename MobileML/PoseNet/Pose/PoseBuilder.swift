@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 The implementation of a structure that analyzes the PoseNet model outputs to detect
  single or multiple poses.

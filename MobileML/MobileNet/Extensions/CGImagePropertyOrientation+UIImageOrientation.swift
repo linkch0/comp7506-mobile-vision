@@ -1,5 +1,5 @@
 /*
-See LICENSE folder for this sample’s licensing information.
+See LICENSE.txt for this sample’s licensing information.
 
 Abstract:
 Core Graphics utility extension that creates CGImagePropertyOrientation from a UIImage Orientation.

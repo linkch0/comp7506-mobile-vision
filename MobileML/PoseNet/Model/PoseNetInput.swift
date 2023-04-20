@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 The implementation of a CoreML feature provider passed to the PoseNet model by the
  PoseNet class for prediction.

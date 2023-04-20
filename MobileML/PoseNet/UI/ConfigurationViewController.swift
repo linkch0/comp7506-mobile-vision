@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 Implementation details of a modal view that presents the PoseNet algorithm parameters
  to the user.

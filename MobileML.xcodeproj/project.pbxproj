@@ -19,6 +19,10 @@
 		3B26AA5229EFFFD2008C73C6 /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4629EFFFD2008C73C6 /* MainViewController+CameraPicker.swift */; };
 		3B26AA5329EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */; };
 		3B26AA5529EFFFD2008C73C6 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */; };
+		3B26AA5729F118E8008C73C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5629F118E8008C73C6 /* LICENSE.txt */; };
+		3B26AA5929F11995008C73C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5829F11995008C73C6 /* LICENSE.txt */; };
+		3B26AA5B29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5A29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt */; };
+		3B26AA5D29F11A38008C73C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5C29F11A38008C73C6 /* LICENSE.txt */; };
 		3B41434A29E9840400B39131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B41434929E9840400B39131 /* CardView.swift */; };
 		3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */; };
 		3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */; };
@@ -63,13 +67,16 @@
 		3B26AA4629EFFFD2008C73C6 /* MainViewController+CameraPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+CameraPicker.swift"; sourceTree = "<group>"; };
 		3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainViewController+PhotoPicker.swift"; sourceTree = "<group>"; };
 		3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		3B26AA5629F118E8008C73C6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3B26AA5829F11995008C73C6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		3B26AA5A29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ACKNOWLEDGMENTS.txt; sourceTree = "<group>"; };
+		3B26AA5C29F11A38008C73C6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		3B41434929E9840400B39131 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3B53195B29EB18A1009899CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOViewController.swift; sourceTree = "<group>"; };
 		3B8BC95B29E9CE220020A77D /* YOLO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YOLO.storyboard; sourceTree = "<group>"; };
 		3B8BC95F29E9D3540020A77D /* StoryboardWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardWrapper.swift; sourceTree = "<group>"; };
-		3B8BC96329E9D86E0020A77D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3B8BC99B29EB072F0020A77D /* Joint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Joint.swift; sourceTree = "<group>"; };
 		3B8BC99C29EB072F0020A77D /* PoseBuilder+Multiple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Multiple.swift"; sourceTree = "<group>"; };
 		3B8BC99D29EB072F0020A77D /* PoseBuilder+Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PoseBuilder+Single.swift"; sourceTree = "<group>"; };
@@ -126,7 +133,6 @@
 		3B0B32BB29E95AA1000438DC /* MobileML */ = {
 			isa = PBXGroup;
 			children = (
-				3B8BC96329E9D86E0020A77D /* Info.plist */,
 				3B0B32C029E95AA2000438DC /* Assets.xcassets */,
 				3B0B32C229E95AA2000438DC /* Preview Content */,
 				3B8BC95629E9A5160020A77D /* YOLO */,
@@ -156,6 +162,7 @@
 				3B26AA3E29EFFFD2008C73C6 /* Extensions */,
 				3B26AA4229EFFFD2008C73C6 /* Main View */,
 				3B26AA4929EFFFD2008C73C6 /* Image Predictor */,
+				3B26AA5C29F11A38008C73C6 /* LICENSE.txt */,
 			);
 			path = MobileNet;
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 				3B8BC95B29E9CE220020A77D /* YOLO.storyboard */,
 				3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */,
 				3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */,
+				3B26AA5629F118E8008C73C6 /* LICENSE.txt */,
 			);
 			path = YOLO;
 			sourceTree = "<group>";
@@ -209,6 +217,8 @@
 				3B8BC9BB29EB076D0020A77D /* Utils */,
 				3B8BC9B229EB076D0020A77D /* UI */,
 				3B8BC9CB29EB09160020A77D /* Pose.storyboard */,
+				3B26AA5829F11995008C73C6 /* LICENSE.txt */,
+				3B26AA5A29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt */,
 			);
 			path = PoseNet;
 			sourceTree = "<group>";
@@ -325,11 +335,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B26AA5729F118E8008C73C6 /* LICENSE.txt in Resources */,
 				3B8BC95C29E9CE220020A77D /* YOLO.storyboard in Resources */,
 				3B26AA5129EFFFD2008C73C6 /* MobileNet.storyboard in Resources */,
+				3B26AA5D29F11A38008C73C6 /* LICENSE.txt in Resources */,
 				3BB64ECB29EB0FF7008545B5 /* Pose.storyboard in Resources */,
 				3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */,
 				3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */,
+				3B26AA5929F11995008C73C6 /* LICENSE.txt in Resources */,
+				3B26AA5B29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +533,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MobileML/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for real-time object detection.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for computer vision tasks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -553,7 +567,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MobileML/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for real-time object detection.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for computer vision tasks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

@@ -1,4 +1,6 @@
 /*
+See LICENSE.txt for this sample’s licensing information.
+ 
 Abstract:
 The implementation of a utility class that facilitates frame captures from the device
  camera.
