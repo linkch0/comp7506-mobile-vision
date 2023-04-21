@@ -41,6 +41,8 @@ struct ContentView: View {
             .accessibilityLabel(Text("Back"))
             .position(x: UIScreen.main.bounds.maxX - 40, y: 15)
         }
+        // Hide the status bar
+        .statusBarHidden(true)
     }
 }
 

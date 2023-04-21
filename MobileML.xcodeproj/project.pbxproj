@@ -19,10 +19,6 @@
 		3B26AA5229EFFFD2008C73C6 /* MainViewController+CameraPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4629EFFFD2008C73C6 /* MainViewController+CameraPicker.swift */; };
 		3B26AA5329EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */; };
 		3B26AA5529EFFFD2008C73C6 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */; };
-		3B26AA5729F118E8008C73C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5629F118E8008C73C6 /* LICENSE.txt */; };
-		3B26AA5929F11995008C73C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5829F11995008C73C6 /* LICENSE.txt */; };
-		3B26AA5B29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5A29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt */; };
-		3B26AA5D29F11A38008C73C6 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3B26AA5C29F11A38008C73C6 /* LICENSE.txt */; };
 		3B41434A29E9840400B39131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B41434929E9840400B39131 /* CardView.swift */; };
 		3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */; };
 		3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */; };
@@ -335,15 +331,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B26AA5729F118E8008C73C6 /* LICENSE.txt in Resources */,
 				3B8BC95C29E9CE220020A77D /* YOLO.storyboard in Resources */,
 				3B26AA5129EFFFD2008C73C6 /* MobileNet.storyboard in Resources */,
-				3B26AA5D29F11A38008C73C6 /* LICENSE.txt in Resources */,
 				3BB64ECB29EB0FF7008545B5 /* Pose.storyboard in Resources */,
 				3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */,
 				3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */,
-				3B26AA5929F11995008C73C6 /* LICENSE.txt in Resources */,
-				3B26AA5B29F119C8008C73C6 /* ACKNOWLEDGMENTS.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +524,7 @@
 				DEVELOPMENT_TEAM = UVU5GGS227;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobileML/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for computer vision tasks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -566,7 +558,7 @@
 				DEVELOPMENT_TEAM = UVU5GGS227;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MobileML/Info.plist;
+				INFOPLIST_FILE = "";
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for computer vision tasks.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
