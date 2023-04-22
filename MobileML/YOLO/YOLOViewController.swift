@@ -74,6 +74,10 @@ class YOLOViewController: UIViewController, AVCaptureVideoDataOutputSampleBuffer
         captureConnection?.isEnabled = true
         do {
             try  videoDevice!.lockForConfiguration()
+            // Try 60 FPS
+            let duration = CMTimeMake(value: 1, timescale: 60)
+            videoDevice?.activeVideoMinFrameDuration = duration
+            videoDevice?.activeVideoMinFrameDuration = duration
             let dimensions = CMVideoFormatDescriptionGetDimensions((videoDevice?.activeFormat.formatDescription)!)
             bufferSize.width = CGFloat(dimensions.width)
             bufferSize.height = CGFloat(dimensions.height)

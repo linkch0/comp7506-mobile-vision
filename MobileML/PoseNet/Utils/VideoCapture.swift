@@ -128,6 +128,10 @@ class VideoCapture: NSObject {
         }
 
         captureSession.addInput(videoInput)
+        // Try 60 FPS
+        let duration = CMTimeMake(value: 1, timescale: 59)
+        captureDevice.activeVideoMinFrameDuration = duration
+        captureDevice.activeVideoMinFrameDuration = duration
     }
 
     private func setCaptureSessionOutput() throws {

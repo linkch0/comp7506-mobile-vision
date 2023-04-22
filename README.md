@@ -1,10 +1,32 @@
 #  COMP7506 2A Group Project
 
-Group Member: [CHEN Lu](https://github.com/HeroLink), [WANG Junheng](https://github.com/Caffretro), [WANG Yifei](https://github.com/WaangYifei), [LIU Wanting](https://github.com/wantine)
+Group36, Members: [CHEN Lu](https://github.com/HeroLink), [WANG Junheng](https://github.com/Caffretro), [WANG Yifei](https://github.com/WaangYifei), [LIU Wanting](https://github.com/wantine)
 
-The models can be downloaded from [here](https://developer.apple.com/machine-learning/models/).
+If you have any question, please reach out to [link@connect.hku.hk](mailto:link@connect.hku.hk).
 
-## Acknowledgements
+# Build
+
+This application is build by Xcode version 14.3 (14E222b) on macOS 13.3.1 (22E261).
+
+Before building this application, make sure you download [YOLOv3](https://ml-assets.apple.com/coreml/models/Image/ObjectDetection/YOLOv3/YOLOv3.mlmodel), [PoseNetMobileNet100S16FP16](https://ml-assets.apple.com/coreml/models/Image/PoseEstimation/PoseNet/PoseNetMobileNet100S8FP16.mlmodel), and [MobileNetV2](https://ml-assets.apple.com/coreml/models/Image/ImageClassification/MobileNetV2/MobileNetV2.mlmodel). **Clicking links will directly download**. 
+
+Drag each download to each model directory:
+
+1. YOLOv3: `./MobileML/YOLO`
+
+2. PoseNetMobileNet100S16FP16: `./MobileML/PoseNet/Model`
+
+3. MobileNetV2: `./MobileML/MobileNet/Image Predictor/MobileNetV2.mlmodel`
+
+If you wish to use different models, you can download from [here](https://developer.apple.com/machine-learning/models/). Do remember to change the model name corresponding to your downloads:
+
+1. YOLO: Line24 in [`./MobileML/YOLO/VisionObjectRecognitionViewController.swift`](./MobileML/YOLO/VisionObjectRecognitionViewController.swift)
+
+2. PoseNet: Line44 in [`./MobileML/PoseNet/Model/PoseNet.swift`](./MobileML/PoseNet/Model/PoseNet.swift)
+
+3. MobileNet: Line27 in [`./MobileML/MobileNet/Image%20Predictor/ImagePredictor.swift`](./MobileML/MobileNet/Image%20Predictor/ImagePredictor.swift)
+
+# Acknowledgements
 
 1. Object Detection example is modified from [Apple 'Recognizing Objects in Live Capture'](https://developer.apple.com/documentation/vision/recognizing_objects_in_live_capture).
 
