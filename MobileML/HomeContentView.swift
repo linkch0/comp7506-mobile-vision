@@ -13,6 +13,8 @@ struct HomeCardView: View {
     let homecard: HomeCard
     @State private var showSecondView = false
     @State private var init_type = -1
+    @State private var bgColor = Color.white
+    
     var body: some View {
         VStack(alignment: .leading) {
             Text(homecard.title)
@@ -30,13 +32,19 @@ struct HomeCardView: View {
                 .frame(width: 350, height: 250)
                 .clipped()
         }
-        .background(Color.white)
+        .background(bgColor)
         .cornerRadius(10)
         .shadow(radius: 5)
         .onTapGesture {
             init_type = homecard.init_type
             showSecondView = true
         }
+        // When view is tapped or pressed, bgColor will be changed to light gray
+        .onLongPressGesture (pressing: { isPressing in
+            bgColor = isPressing ? Color(red: 0.8, green: 0.8, blue: 0.8) : .white
+        }, perform: {
+            bgColor = .white
+        })
         .fullScreenCover(isPresented: $showSecondView) {
             withAnimation {
                 ContentView(init_type: $init_type)
