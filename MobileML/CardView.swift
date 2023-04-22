@@ -36,53 +36,54 @@ struct CardView: View {
     
     
     var body: some View {
-        GeometryReader { reader in
-            // Get full screen size
-            let w = reader.size.width
-            let h = reader.size.height
-            
-            VStack {
-                card.image
-                    .resizable()
-                    .aspectRatio(contentMode: .fill)
-                    .frame(width: w/2, height: h/2)
+        VStack {
+            // Swiper for cards
+            TabView {
+                ForEach(card.images, id: \.self) { image in
+                    Image(image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(height: UIScreen.main.bounds.height / 2)
+                        .padding(.bottom, -60)
                     .ignoresSafeArea()
-                    .padding(.bottom, -60)
-                
-                VStack(alignment: .leading, spacing: 5) {
-                    Text(card.title)
-                        .font(.title)
-                        .fontWeight(.bold)
-                    
-                    Text(card.subtitle)
-                        .font(.title2)
-                        .fontWeight(.bold)
-                    
-                    JustifiedTextView(text: card.desc)
-                        .frame(height: 250)
-                    
-                    Button(action : {
-                        self.isPresented = true
-                    }) {
-                        Text(card.btnTitle)
-                            .fontWeight(.bold)
-                            .foregroundColor(.white)
-                    }
-                    .sheet(isPresented: $isPresented){
-                        StoryboardWrapper(storyboardName: card.board)
-                    }
-                    .padding(.top, 10)
-                    .padding(.bottom, 10)
-                    .frame(maxWidth: .infinity)
-                    .background(Color.blue)
-                    .cornerRadius(10)
-                    
-                    // This should be the last, put everything to the top
-                    Spacer()
                 }
-                .padding()
-                
             }
+            .tabViewStyle(.page(indexDisplayMode: .always))
+            .indexViewStyle(.page(backgroundDisplayMode: .always))
+            .ignoresSafeArea()
+            
+            VStack(alignment: .leading, spacing: 5) {
+                Text(card.title)
+                    .font(.title)
+                    .fontWeight(.bold)
+                
+                Text(card.subtitle)
+                    .font(.title2)
+                    .fontWeight(.bold)
+                
+                JustifiedTextView(text: card.desc)
+                    .frame(height: 250)
+                
+                Button(action : {
+                    self.isPresented = true
+                }) {
+                    Text(card.btnTitle)
+                        .fontWeight(.bold)
+                        .foregroundColor(.white)
+                }
+                .sheet(isPresented: $isPresented){
+                    StoryboardWrapper(storyboardName: card.board)
+                }
+                .padding(.top, 10)
+                .padding(.bottom, 10)
+                .frame(maxWidth: .infinity)
+                .background(Color.blue)
+                .cornerRadius(10)
+                
+                // This should be the last, put everything to the top
+                Spacer()
+            }
+            .padding()
         }
     }
 }

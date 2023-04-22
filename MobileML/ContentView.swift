@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    let init_cards = [init_clf_cards, init_det_cards, init_est_cards]
+    // Object Detection, Pose Estimation, Image Classfication
+    let init_cards = [yolo_card, posenet_card, mobilenet_card]
     
     // Parameter for init cards
     @Binding var init_type: Int
@@ -16,16 +17,9 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            // Swiper for cards
-            TabView {
-                let cards = init_cards[init_type]()
-                ForEach(cards) { card in
-                    CardView(card: card)
-                }
-            }
-            .tabViewStyle(.page(indexDisplayMode: .always))
-            .indexViewStyle(.page(backgroundDisplayMode: .always))
-            .ignoresSafeArea()
+            // Card View
+            let card = init_cards[init_type]()
+            CardView(card: card)
             
             // Back button
             Button(action: {

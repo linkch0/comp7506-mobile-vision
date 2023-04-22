@@ -48,9 +48,9 @@ struct HomeCardView: View {
 
 struct HomeContentView: View {
     let cards: [HomeCard] = [
-        HomeCard(imageName: "mobilenet", title: "Image Classification", description: "Card 1 description", init_type: 0),
-        HomeCard(imageName: "yolo", title: "Object Detection", description: "Card 2 description", init_type: 1),
-        HomeCard(imageName: "posenet", title: "Pose Estimation", description: "Card 3 description", init_type: 2)
+        HomeCard(imageName: "yolo", title: "Object Detection", description: "Card 1 description", init_type: 0),
+        HomeCard(imageName: "posenet", title: "Pose Estimation", description: "Card 2 description", init_type: 1),
+        HomeCard(imageName: "mobilenet", title: "Image Classification", description: "Card 3 description", init_type: 2)
     ]
     
     var body: some View {
