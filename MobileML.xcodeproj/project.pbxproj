@@ -11,7 +11,6 @@
 		3B0B32BF29E95AA1000438DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0B32BE29E95AA1000438DC /* ContentView.swift */; };
 		3B0B32C129E95AA2000438DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C029E95AA2000438DC /* Assets.xcassets */; };
 		3B0B32C429E95AA2000438DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */; };
-		3B26AA4B29EFFFD2008C73C6 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA3C29EFFFD2008C73C6 /* MobileNet.mlmodel */; };
 		3B26AA4D29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA3F29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift */; };
 		3B26AA4E29EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4029EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 		3B26AA5029EFFFD2008C73C6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4329EFFFD2008C73C6 /* MainViewController.swift */; };
@@ -20,6 +19,7 @@
 		3B26AA5329EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4729EFFFD2008C73C6 /* MainViewController+PhotoPicker.swift */; };
 		3B26AA5529EFFFD2008C73C6 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */; };
 		3B41434A29E9840400B39131 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B41434929E9840400B39131 /* CardView.swift */; };
+		3B861A9729F3DF5D003BD1E9 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B861A9629F3DF5D003BD1E9 /* MobileNetV2.mlmodel */; };
 		3B8BC95829E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */; };
 		3B8BC95A29E9CC9B0020A77D /* YOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */; };
 		3B8BC95C29E9CE220020A77D /* YOLO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8BC95B29E9CE220020A77D /* YOLO.storyboard */; };
@@ -55,7 +55,6 @@
 		3B0B32BE29E95AA1000438DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3B0B32C029E95AA2000438DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0B32C329E95AA2000438DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3B26AA3C29EFFFD2008C73C6 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 		3B26AA3F29EFFFD2008C73C6 /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
 		3B26AA4029EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		3B26AA4329EFFFD2008C73C6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		3B26AA5C29F11A38008C73C6 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		3B41434929E9840400B39131 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3B53195B29EB18A1009899CB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3B861A9629F3DF5D003BD1E9 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		3B8BC95729E9CC4A0020A77D /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		3B8BC95929E9CC9B0020A77D /* YOLOViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YOLOViewController.swift; sourceTree = "<group>"; };
 		3B8BC95B29E9CE220020A77D /* YOLO.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = YOLO.storyboard; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 		3B26AA4929EFFFD2008C73C6 /* Image Predictor */ = {
 			isa = PBXGroup;
 			children = (
-				3B26AA3C29EFFFD2008C73C6 /* MobileNet.mlmodel */,
+				3B861A9629F3DF5D003BD1E9 /* MobileNetV2.mlmodel */,
 				3B26AA4A29EFFFD2008C73C6 /* ImagePredictor.swift */,
 			);
 			path = "Image Predictor";
@@ -364,9 +364,9 @@
 				3B8BC9C129EB076D0020A77D /* PopOverModalViewController.swift in Sources */,
 				3B8BC9C529EB076D0020A77D /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				3B8BC9C029EB076D0020A77D /* ConfigurationViewController.swift in Sources */,
+				3B861A9729F3DF5D003BD1E9 /* MobileNetV2.mlmodel in Sources */,
 				3B26AA4E29EFFFD2008C73C6 /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */,
 				3B0B32BF29E95AA1000438DC /* ContentView.swift in Sources */,
-				3B26AA4B29EFFFD2008C73C6 /* MobileNet.mlmodel in Sources */,
 				3B8BC9AD29EB075D0020A77D /* PoseNetOutput.swift in Sources */,
 				3B41434A29E9840400B39131 /* CardView.swift in Sources */,
 				3B8BC9C329EB076D0020A77D /* CGPoint+Extension.swift in Sources */,

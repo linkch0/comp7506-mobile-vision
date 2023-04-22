@@ -42,15 +42,14 @@ struct HomeCardView: View {
                 ContentView(init_type: $init_type)
             }
         }
-        
     }
 }
 
 struct HomeContentView: View {
     let cards: [HomeCard] = [
-        HomeCard(imageName: "yolo", title: "Object Detection", description: "Revolutionizing Object Detection: Meet YOLO - The Fast and Accurate Model That Only Looks Once!", init_type: 0),
-        HomeCard(imageName: "posenet", title: "Pose Estimation", description: "Strike a Pose with PoseNet: The Revolutionary Model for Real-Time Human Pose Estimation!", init_type: 1),
-        HomeCard(imageName: "mobilenet", title: "Image Classification", description: "Unleash the Power of MobileNet: The Lightning Fast Model for Image Clasification on the Go!", init_type: 2)
+        HomeCard(imageName: "y0", title: "Object Detection", description: "Real-time Locate and classify objects", init_type: 0),
+        HomeCard(imageName: "p1", title: "Pose Estimation", description: "Real-time Detect body joints and parts", init_type: 1),
+        HomeCard(imageName: "m1", title: "Image Classification", description: "Categorize images into predefined classes", init_type: 2)
     ]
     
     var body: some View {
@@ -63,7 +62,7 @@ struct HomeContentView: View {
                 }
                 .padding()
             }
-            .navigationBarTitle("CV in Mobile", displayMode: .automatic)
+            .navigationBarTitle("CV Realms in Mobile", displayMode: .automatic)
         }
     }
 }

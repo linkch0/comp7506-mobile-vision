@@ -151,8 +151,8 @@ class VisionObjectRecognitionViewController: YOLOViewController {
         shapeLayer.position = CGPoint(x: bounds.midX, y: bounds.midY)
         shapeLayer.name = "Found Object"
         shapeLayer.backgroundColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [1.0, 1.0, 0.2, 0.4])
-//        shapeLayer.borderColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [Double.random(in: 0...1), Double.random(in: 0...1), Double.random(in: 0...1), 1.0])
-//        shapeLayer.borderWidth = 5
+        // shapeLayer.borderColor = CGColor(colorSpace: CGColorSpaceCreateDeviceRGB(), components: [0.0, 1.0, 0, 0.6])
+        // shapeLayer.borderWidth = 5
         shapeLayer.cornerRadius = 7
         return shapeLayer
     }
