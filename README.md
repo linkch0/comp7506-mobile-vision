@@ -12,19 +12,19 @@ Before building this application, make sure you download [YOLOv3](https://ml-ass
 
 Drag each download to each model directory:
 
-1. YOLOv3: `./MobileML/YOLO`
+1. YOLOv3: `./MobileVision/YOLO`
 
-2. PoseNetMobileNet100S16FP16: `./MobileML/PoseNet/Model`
+2. PoseNetMobileNet100S16FP16: `./MobileVision/PoseNet/Model`
 
-3. MobileNetV2: `./MobileML/MobileNet/Image Predictor/MobileNetV2.mlmodel`
+3. MobileNetV2: `./MobileVision/MobileNet/Image Predictor/MobileNetV2.mlmodel`
 
 If you wish to use different models, you can download from [here](https://developer.apple.com/machine-learning/models/). Do remember to change the model name corresponding to your downloads:
 
-1. YOLO: Line24 in [`./MobileML/YOLO/VisionObjectRecognitionViewController.swift`](./MobileML/YOLO/VisionObjectRecognitionViewController.swift)
+1. YOLO: Line24 in [`./MobileVision/YOLO/VisionObjectRecognitionViewController.swift`](./MobileVision/YOLO/VisionObjectRecognitionViewController.swift)
 
-2. PoseNet: Line44 in [`./MobileML/PoseNet/Model/PoseNet.swift`](./MobileML/PoseNet/Model/PoseNet.swift)
+2. PoseNet: Line44 in [`./MobileVision/PoseNet/Model/PoseNet.swift`](./MobileVision/PoseNet/Model/PoseNet.swift)
 
-3. MobileNet: Line27 in [`./MobileML/MobileNet/Image%20Predictor/ImagePredictor.swift`](./MobileML/MobileNet/Image%20Predictor/ImagePredictor.swift)
+3. MobileNet: Line27 in [`./MobileVision/MobileNet/Image%20Predictor/ImagePredictor.swift`](./MobileVision/MobileNet/Image%20Predictor/ImagePredictor.swift)
 
 # Acknowledgements
 
