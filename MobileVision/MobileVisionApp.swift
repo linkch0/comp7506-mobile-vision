@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct MobileVisionApp: App {
+    @State var showHomeView = false
+    
     var body: some Scene {
         WindowGroup {
-            HomeContentView()
+            if !showHomeView {
+                LaunchView(showHomeView: $showHomeView)
+            } else {
+                HomeContentView()
+            }
         }
     }
 }

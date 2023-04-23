@@ -47,7 +47,7 @@ struct HomeCardView: View {
         })
         .fullScreenCover(isPresented: $showSecondView) {
             withAnimation {
-                ContentView(init_type: $init_type)
+                CardView(init_type: $init_type)
             }
         }
     }
@@ -70,7 +70,7 @@ struct HomeContentView: View {
                 }
                 .padding()
             }
-            .navigationBarTitle("CV Realms in Mobile", displayMode: .automatic)
+            .navigationBarTitle("Mobile Vision", displayMode: .automatic)
         }
     }
 }

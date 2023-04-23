@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B575FE729F44DC000500D9C /* MobileVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB829F44C1C00500D9C /* MobileVisionApp.swift */; };
+		3B550E8129F5107D00A7B195 /* MobileVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB829F44C1C00500D9C /* MobileVisionApp.swift */; };
+		3B550E8529F519D200A7B195 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B550E8429F519D200A7B195 /* LaunchView.swift */; };
 		3B575FE829F44DC200500D9C /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FBB29F44C1C00500D9C /* HomeContentView.swift */; };
-		3B575FE929F44DC300500D9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FC529F44C1C00500D9C /* ContentView.swift */; };
-		3B575FEA29F44DC500500D9C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB529F44C1C00500D9C /* CardView.swift */; };
+		3B575FE929F44DC300500D9C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FC529F44C1C00500D9C /* CardView.swift */; };
 		3B575FEB29F44DC700500D9C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB729F44C1C00500D9C /* Card.swift */; };
 		3B575FEC29F44DC900500D9C /* StoryboardWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB429F44C1C00500D9C /* StoryboardWrapper.swift */; };
 		3B575FEE29F44DD200500D9C /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB129F44C1C00500D9C /* ImagePredictor.swift */; };
@@ -50,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		3B0B32B929E95AA1000438DC /* MobileVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B550E8429F519D200A7B195 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = SOURCE_ROOT; };
 		3B575FA829F44C1C00500D9C /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
 		3B575FA929F44C1C00500D9C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		3B575FAB29F44C1C00500D9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +61,6 @@
 		3B575FB229F44C1C00500D9C /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		3B575FB329F44C1C00500D9C /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		3B575FB429F44C1C00500D9C /* StoryboardWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardWrapper.swift; sourceTree = "<group>"; };
-		3B575FB529F44C1C00500D9C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3B575FB629F44C1C00500D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B575FB729F44C1C00500D9C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		3B575FB829F44C1C00500D9C /* MobileVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileVisionApp.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		3B575FC229F44C1C00500D9C /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 		3B575FC329F44C1C00500D9C /* YOLO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YOLO.storyboard; sourceTree = "<group>"; };
 		3B575FC429F44C1C00500D9C /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		3B575FC529F44C1C00500D9C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B575FC529F44C1C00500D9C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3B575FC829F44C1C00500D9C /* PoseImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseImageView.swift; sourceTree = "<group>"; };
 		3B575FC929F44C1C00500D9C /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
 		3B575FCA29F44C1C00500D9C /* PoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseViewController.swift; sourceTree = "<group>"; };
@@ -135,9 +135,9 @@
 				3B575FB929F44C1C00500D9C /* Preview Content */,
 				3B575FB429F44C1C00500D9C /* StoryboardWrapper.swift */,
 				3B575FB729F44C1C00500D9C /* Card.swift */,
-				3B575FB529F44C1C00500D9C /* CardView.swift */,
-				3B575FC529F44C1C00500D9C /* ContentView.swift */,
+				3B575FC529F44C1C00500D9C /* CardView.swift */,
 				3B575FBB29F44C1C00500D9C /* HomeContentView.swift */,
+				3B550E8429F519D200A7B195 /* LaunchView.swift */,
 				3B575FB829F44C1C00500D9C /* MobileVisionApp.swift */,
 			);
 			path = MobileVision;
@@ -344,7 +344,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B575FE729F44DC000500D9C /* MobileVisionApp.swift in Sources */,
 				3B575FE829F44DC200500D9C /* HomeContentView.swift in Sources */,
 				3B57600029F44E1A00500D9C /* AVCaptureVideoOrientation+Extension.swift in Sources */,
 				3B575FFA29F44E0B00500D9C /* Joint.swift in Sources */,
@@ -357,7 +356,6 @@
 				3B575FF929F44DFD00500D9C /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
 				3B575FF629F44DF700500D9C /* PoseNetOutput.swift in Sources */,
 				3B575FF329F44DEA00500D9C /* VNClassificationObservation+confidenceString.swift in Sources */,
-				3B575FEA29F44DC500500D9C /* CardView.swift in Sources */,
 				3B575FFB29F44E0D00500D9C /* PoseBuilder+Multiple.swift in Sources */,
 				3B575FEE29F44DD200500D9C /* ImagePredictor.swift in Sources */,
 				3B57600529F44E2400500D9C /* PoseImageView.swift in Sources */,
@@ -365,6 +363,7 @@
 				3B575FF029F44DD800500D9C /* MainViewController.swift in Sources */,
 				3B575FFC29F44E0F00500D9C /* PoseBuilder+Single.swift in Sources */,
 				3B57600129F44E1C00500D9C /* VideoCapture.swift in Sources */,
+				3B550E8129F5107D00A7B195 /* MobileVisionApp.swift in Sources */,
 				3B575FFD29F44E1100500D9C /* Pose.swift in Sources */,
 				3B575FF829F44DFB00500D9C /* PoseNetInput.swift in Sources */,
 				3B575FEC29F44DC900500D9C /* StoryboardWrapper.swift in Sources */,
@@ -376,9 +375,10 @@
 				3B57600B29F44E4600500D9C /* YOLOv3.mlmodel in Sources */,
 				3B57600429F44E2400500D9C /* ConfigurationViewController.swift in Sources */,
 				3B57600A29F44E4600500D9C /* YOLOViewController.swift in Sources */,
+				3B550E8529F519D200A7B195 /* LaunchView.swift in Sources */,
 				3B57600D29F44E4600500D9C /* VisionObjectRecognitionViewController.swift in Sources */,
 				3B575FFE29F44E1300500D9C /* PoseBuilder.swift in Sources */,
-				3B575FE929F44DC300500D9C /* ContentView.swift in Sources */,
+				3B575FE929F44DC300500D9C /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -527,6 +528,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -549,6 +551,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -561,6 +564,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
