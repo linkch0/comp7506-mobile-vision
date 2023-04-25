@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3B550E8129F5107D00A7B195 /* MobileVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB829F44C1C00500D9C /* MobileVisionApp.swift */; };
 		3B550E8529F519D200A7B195 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B550E8429F519D200A7B195 /* LaunchView.swift */; };
+		3B550E8729F77EFE00A7B195 /* YOLOv3Tiny.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B550E8629F77EFE00A7B195 /* YOLOv3Tiny.mlmodel */; };
 		3B575FE829F44DC200500D9C /* HomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FBB29F44C1C00500D9C /* HomeContentView.swift */; };
 		3B575FE929F44DC300500D9C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FC529F44C1C00500D9C /* CardView.swift */; };
 		3B575FEB29F44DC700500D9C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FB729F44C1C00500D9C /* Card.swift */; };
@@ -40,7 +41,6 @@
 		3B57600729F44E2400500D9C /* PopOverModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FCB29F44C1C00500D9C /* PopOverModalViewController.swift */; };
 		3B57600829F44E2400500D9C /* PoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FCA29F44C1C00500D9C /* PoseViewController.swift */; };
 		3B57600A29F44E4600500D9C /* YOLOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FC129F44C1C00500D9C /* YOLOViewController.swift */; };
-		3B57600B29F44E4600500D9C /* YOLOv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FC229F44C1C00500D9C /* YOLOv3.mlmodel */; };
 		3B57600C29F44E4600500D9C /* YOLO.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B575FC329F44C1C00500D9C /* YOLO.storyboard */; };
 		3B57600D29F44E4600500D9C /* VisionObjectRecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B575FBF29F44C1C00500D9C /* VisionObjectRecognitionViewController.swift */; };
 		3B57600E29F44E4A00500D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B575FB629F44C1C00500D9C /* Assets.xcassets */; };
@@ -51,6 +51,7 @@
 /* Begin PBXFileReference section */
 		3B0B32B929E95AA1000438DC /* MobileVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B550E8429F519D200A7B195 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = SOURCE_ROOT; };
+		3B550E8629F77EFE00A7B195 /* YOLOv3Tiny.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3Tiny.mlmodel; sourceTree = "<group>"; };
 		3B575FA829F44C1C00500D9C /* VNClassificationObservation+confidenceString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNClassificationObservation+confidenceString.swift"; sourceTree = "<group>"; };
 		3B575FA929F44C1C00500D9C /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 		3B575FAB29F44C1C00500D9C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -68,7 +69,6 @@
 		3B575FBB29F44C1C00500D9C /* HomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentView.swift; sourceTree = "<group>"; };
 		3B575FBF29F44C1C00500D9C /* VisionObjectRecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectRecognitionViewController.swift; sourceTree = "<group>"; };
 		3B575FC129F44C1C00500D9C /* YOLOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YOLOViewController.swift; sourceTree = "<group>"; };
-		3B575FC229F44C1C00500D9C /* YOLOv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3.mlmodel; sourceTree = "<group>"; };
 		3B575FC329F44C1C00500D9C /* YOLO.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YOLO.storyboard; sourceTree = "<group>"; };
 		3B575FC429F44C1C00500D9C /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		3B575FC529F44C1C00500D9C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 			children = (
 				3B575FBF29F44C1C00500D9C /* VisionObjectRecognitionViewController.swift */,
 				3B575FC129F44C1C00500D9C /* YOLOViewController.swift */,
-				3B575FC229F44C1C00500D9C /* YOLOv3.mlmodel */,
+				3B550E8629F77EFE00A7B195 /* YOLOv3Tiny.mlmodel */,
 				3B575FC329F44C1C00500D9C /* YOLO.storyboard */,
 				3B575FC429F44C1C00500D9C /* LICENSE.txt */,
 			);
@@ -354,6 +354,7 @@
 				3B575FF129F44DDF00500D9C /* MainViewController+CameraPicker.swift in Sources */,
 				3B57600829F44E2400500D9C /* PoseViewController.swift in Sources */,
 				3B575FF929F44DFD00500D9C /* PoseNetMobileNet100S16FP16.mlmodel in Sources */,
+				3B550E8729F77EFE00A7B195 /* YOLOv3Tiny.mlmodel in Sources */,
 				3B575FF629F44DF700500D9C /* PoseNetOutput.swift in Sources */,
 				3B575FF329F44DEA00500D9C /* VNClassificationObservation+confidenceString.swift in Sources */,
 				3B575FFB29F44E0D00500D9C /* PoseBuilder+Multiple.swift in Sources */,
@@ -372,7 +373,6 @@
 				3B57600729F44E2400500D9C /* PopOverModalViewController.swift in Sources */,
 				3B57600229F44E1F00500D9C /* CGPoint+Extension.swift in Sources */,
 				3B575FFF29F44E1600500D9C /* PoseBuilderConfiguration.swift in Sources */,
-				3B57600B29F44E4600500D9C /* YOLOv3.mlmodel in Sources */,
 				3B57600429F44E2400500D9C /* ConfigurationViewController.swift in Sources */,
 				3B57600A29F44E4600500D9C /* YOLOViewController.swift in Sources */,
 				3B550E8529F519D200A7B195 /* LaunchView.swift in Sources */,
